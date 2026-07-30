@@ -102,7 +102,7 @@ function ConnectionStatus({
   return <p style={{ color: "gray" }}>Status: disconnected</p>;
 }
 
-function UserGetResponder({
+export function UserGetResponder({
   onLog,
 }: {
   onLog: (message: string) => void;
@@ -121,7 +121,7 @@ function UserGetResponder({
   return null;
 }
 
-function SendNotificationButton({
+export function SendNotificationButton({
   onLog,
 }: {
   onLog: (message: string) => void;

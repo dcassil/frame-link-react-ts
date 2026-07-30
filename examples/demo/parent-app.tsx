@@ -99,7 +99,7 @@ function ConnectionStatus({
   return <p style={{ color: "gray" }}>Status: disconnected</p>;
 }
 
-function GetUserPanel(): React.JSX.Element {
+export function GetUserPanel(): React.JSX.Element {
   const [userId, setUserId] = useState("123");
   const [result, setResult] = useState<string>("");
 
@@ -131,7 +131,7 @@ function GetUserPanel(): React.JSX.Element {
   );
 }
 
-function NotificationBanner(): React.JSX.Element | null {
+export function NotificationBanner(): React.JSX.Element | null {
   const [notification, setNotification] = useState<{
     message: string;
     type: "info" | "error";
