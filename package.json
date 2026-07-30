@@ -34,7 +34,9 @@
     "check": "npm run typecheck && npm run lint && npm run format:check",
     "test": "jest --config=jest.config.cjs",
     "test:coverage": "jest --coverage --config=jest.config.cjs",
-    "depcruise": "depcruise src"
+    "depcruise": "depcruise src",
+    "demo": "vite --config examples/vite.config.ts",
+    "demo:build": "vite build --config examples/vite.config.ts"
   },
   "author": "Daniel Cassil",
   "license": "MIT",
@@ -54,6 +56,7 @@
     "@types/jest": "^29.5.12",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.3.4",
     "babel-jest": "^29.7.0",
     "dependency-cruiser": "^17.4.3",
     "husky": "^9.1.7",
@@ -69,7 +72,8 @@
     "react-dom": "^18.2.0",
     "ts-jest": "^29.4.6",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.56.1"
+    "typescript-eslint": "^8.56.1",
+    "vite": "^5.4.11"
   },
   "keywords": [
     "iframe",

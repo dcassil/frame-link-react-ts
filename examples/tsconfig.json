@@ -7,7 +7,10 @@
   },
   "include": [
     "sample-registry.ts",
-    "docs-snippets.ts"
+    "docs-snippets.ts",
+    "demo/**/*.ts",
+    "demo/**/*.tsx",
+    "vite.config.ts"
   ],
   "exclude": [
     "../node_modules"

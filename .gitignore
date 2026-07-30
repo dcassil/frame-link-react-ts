@@ -5,3 +5,4 @@ coverage
 *.tgz
 # dist/*.DS_Store
 .DS_Store
+dist-demo
