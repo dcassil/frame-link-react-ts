@@ -1,4 +1,4 @@
 node_modules
 dist
 *.tgz
-# dist/*
+# dist/*.DS_Store
